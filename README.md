@@ -41,3 +41,5 @@ You can open the `index.html` file locally in your browser, or host it on any st
 ## 📌 Author
 
 Made with ❤️ by Gustavo — Capstone Project (HTML, CSS, JavaScript).
+
+

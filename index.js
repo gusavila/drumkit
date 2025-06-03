@@ -1,7 +1,7 @@
 var drumButtons = document.querySelectorAll(".drum");
 
 drumButtons.forEach((button) => {
-  button.addEventListener("click", () => {
+  button.addEventListener("click", function() {
     var key = this.querySelector("span").innerText.toLowerCase();
     makeSound(key);
     buttonAnimation(key);
@@ -47,7 +47,7 @@ function buttonAnimation(currentKey) {
   if (!activeButton) return;
   
   activeButton.classList.add("pressed");
-  setTimeout(() => {
+  setTimeout(function() {
     activeButton.classList.remove("pressed");
   }, 100);
 }
