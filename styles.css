@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: relative;
+  font-size: 5rem;
+  color: #fff;
+  font-family: sans-serif;
+  background-image: url(images/rockband.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* mais escuro */
+  border-radius: 10px;
+  z-index: 1;
+}
+
+h1 span {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+footer {
+  margin-top: 10%;
+  color: #444444;
+  font-family: sans-serif;
+}
+
+.w {
+  background: url(images/tom1.png);
+}
+
+.e {
+  background: url(images/tom2.png);
+}
+
+.r {
+  background: url(images/tom3.png);
+}
+
+.a {
+  background: url(images/crash.png);
+}
+
+.s {
+  background: url(images/snare.png);
+}
+
+.d {
+  background: url(images/kick.png);
+}
+
+.f {
+  background: url(images/tom4.png);
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.pressed {
+  box-shadow: none !important; 
+  opacity: 0.5;
+}
+
+.drum span {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.drum {
+  outline: none;
+  border: 6px solid #eeeeee;
+  box-shadow: 4px 4px 10px lightgray;
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  position: relative;
+  color: white; /* letras brancas */
+  z-index: 3;
+}
+
+.drum::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* mais escuro */
+  border-radius: 10px;
+  z-index: 1;
+}
