@@ -43,6 +43,10 @@ footer {
   font-family: sans-serif;
 }
 
+.q {
+  background: url(images/crash.png);
+}
+
 .w {
   background: url(images/tom1.png);
 }
@@ -51,23 +55,15 @@ footer {
   background: url(images/tom2.png);
 }
 
-.r {
-  background: url(images/tom3.png);
-}
-
 .a {
-  background: url(images/crash.png);
-}
-
-.s {
   background: url(images/snare.png);
 }
 
-.d {
+.s {
   background: url(images/kick.png);
 }
 
-.f {
+.d {
   background: url(images/tom4.png);
 }
 
@@ -76,14 +72,13 @@ footer {
 }
 
 .pressed {
-  box-shadow: none !important; 
+  box-shadow: 0px 0px 8px 4px #36709C !important; 
   opacity: 0.5;
 }
 
 .drum span {
   position: relative;
   z-index: 2;
-  color: white;
 }
 
 .drum {
