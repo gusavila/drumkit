@@ -1,45 +1,75 @@
-# 🥁 Drum Kit Project
+# 🥁 Drum Kit
 
-This is a capstone project developed at the end of an HTML, CSS, and JavaScript course. It's an interactive **drum kit** web page that allows users to play drum sounds either by clicking buttons or pressing keys on the keyboard.
+A fun, interactive **drum kit web app** built with HTML, CSS, and JavaScript. Users can press keys or click buttons to play drum sounds with visual feedback. This project was created as part of the [The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
-## 🎯 Features
+## 🌟 Features
 
-- Interactive buttons with drum sound playback
-- Keyboard key mapping for quick access
-- Responsive layout using HTML and CSS
-- Sound effects triggered by JavaScript
-- Visual animation on key/button press
+- Play drums by pressing keys (`Q`, `W`, `E`, `A`, `S`, `D`) or clicking buttons
+- Visual feedback with animation on button press
+- Custom drum sounds: crash, toms, snare, kick
+- Simple responsive layout
+- Uses images for UI styling (e.g., rockband background)
 
-## 🎮 How to Use
+## 🗂️ Folder Structure
 
-- Open the page in your browser.
-- Click on the drum buttons using your mouse or:
-- Press the corresponding keys on your keyboard (`w`, `e`, `r`, `a`, `s`, `d`, `f`) to play the sounds.
+```
+Drum Kit Starting Files/
+├── images/              # UI assets (optional for styling)
+│   ├── crash.png
+│   ├── kick.png
+│   ├── rockband.png
+│   ├── snare.png
+│   ├── tom1.png
+│   ├── tom2.png
+│   ├── tom3.png
+│   └── tom4.png
+├── sounds/              # Drum sound files
+│   ├── crash.mp3
+│   ├── kick-bass.mp3
+│   ├── snare.mp3
+│   ├── tom-1.mp3
+│   ├── tom-2.mp3
+│   └── tom-3.mp3
+├── index.html           # Main HTML structure
+├── index.js             # JS logic for interaction
+├── styles.css           # App styling and animations
+└── README.md            # Project info
+```
+
+## 🎹 Key Bindings
+
+| Key | Sound      |
+|-----|------------|
+| Q   | Crash      |
+| W   | Tom 1      |
+| E   | Tom 2      |
+| A   | Snare      |
+| S   | Kick Bass  |
+| D   | Tom 3      |
+
+## 🚀 Getting Started
+
+1. Clone or download this repository.
+2. Open `index.html` in a browser.
+3. Press any of the supported keys or click on the buttons.
+4. Hear the drums and enjoy the animations!
 
 ## 💻 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
+- Audio API
 
-## 📁 Project Structure
+## 📸 Preview
 
-/drum-kit
-├── index.html
-├── styles.css
-├── index.js
-├── /images
-│ └── [drum images]
-└── /sounds
-└── [drum audio files]
+![Drum Kit Preview](/images/preview.png)
 
+## 📄 License
 
-## 🚀 Try it out!
+This project is licensed under the [MIT License](LICENSE).
 
-You can open the `index.html` file locally in your browser, or host it on any static hosting service like GitHub Pages or Netlify.
+## 🙌 Acknowledgments
 
-## 📌 Author
-
-Made with ❤️ by Gustavo — Capstone Project (HTML, CSS, JavaScript).
-
-
+This project was developed as part of the  
+[The Complete 2024 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) by **Dr. Angela Yu**.
